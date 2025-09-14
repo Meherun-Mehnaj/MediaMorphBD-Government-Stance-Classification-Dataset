@@ -55,7 +55,7 @@
   "paper": {
     "title": "MediaMorphBD: A Dataset of Government Sentiment and Stance in Bangladeshi News Before and After the July 2024 Uprising",
     "year": 2025,
-    "authors": ["[Meherun Mehnaj Miti, Joytun Nessa Tonny, Abrar Hasnat Bhuiyan Maheen, Selina Mim, Ms. Khushnur Binte Jahangir, Md. Tarek Hasan]"]
+    "authors": ["[Meherun Mehnaj Miti, Joytun Nessa Tonny, Abrar Hasnat Bhuiyan Maheen, Selina Akter Mim, Ms. Khushnur Binte Jahangir, Md. Tarek Hasan]"]
   },
   "repository": "https://github.com/Meherun-Mehnaj/MediaMorphBD-Government-Stance-Classification-Dataset"
 }
