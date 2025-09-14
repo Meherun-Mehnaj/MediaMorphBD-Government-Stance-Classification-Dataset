@@ -1,1 +1,61 @@
----
+{
+  "name": "MediaMorphBD: Government Stance Classification Dataset",
+  "description": "A bilingual dataset (Bangla and English) of Bangladeshi news articles annotated with stance, sentiment, and media bias labels, collected before and after the July 2024 Uprising. The English and Bangla datasets are provided separately.",
+  "languages": ["Bangla", "English"],
+  "licenses": [
+    {
+      "name": "CC BY-NC-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "tasks": [
+    "Stance Detection",
+    "Sentiment Analysis",
+    "Media Bias Classification"
+  ],
+  "datasets": {
+    "english": {
+      "file": "updated_english_dataset.csv",
+      "articles": 6269,
+      "newspapers": 8,
+      "international_source": "Al Jazeera",
+      "categories": ["Politics", "National", "Government Affairs"],
+      "tokens": "2.19M"
+    },
+    "bangla": {
+      "file": "updated_bangla_dataset.csv",
+      "articles": 3349,
+      "newspapers": 4,
+      "categories": ["Politics", "National", "Government Affairs"],
+      "tokens": "4.33M"
+    }
+  },
+  "timeframe": {
+    "start_year": 2013,
+    "split_event": "July 2024 Uprising",
+    "periods": ["Before July 2024", "After July 2024"]
+  },
+  "columns": [
+    "Title",
+    "Author",
+    "Date",
+    "Source",
+    "ArticleText",
+    "Period",
+    "CountryLeader",
+    "Cleaned_Text",
+    "Loaded_Language_Score",
+    "Hedging_Score",
+    "Bias_Label",
+    "Bias_Confidence",
+    "Predicted_Stance",
+    "Sentiment_Polarity",
+    "Sentiment_Label"
+  ],
+  "paper": {
+    "title": "MediaMorphBD: A Dataset of Government Sentiment and Stance in Bangladeshi News Before and After the July 2024 Uprising",
+    "year": 2025,
+    "authors": ["[Meherun Mehnaj Miti, Joytun Nessa Tonny, Abrar Hasnat Bhuiyan Maheen, Selina Mim, Ms. Khushnur Binte Jahangir, Md. Tarek Hasan]"]
+  },
+  "repository": "https://github.com/Meherun-Mehnaj/MediaMorphBD-Government-Stance-Classification-Dataset"
+}
