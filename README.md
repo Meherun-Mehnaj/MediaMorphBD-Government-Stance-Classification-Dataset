@@ -98,7 +98,7 @@ If you use this dataset, please cite:
 ```
 @article{MediaMorphBD2025,
   title={MediaMorphBD: A Dataset of Government Sentiment and Stance in Bangladeshi News Before and After the July 2024 Uprising},
-  author={Meherun Mehnaj Miti, Joytun Nessa Tonny, Abrar Hasnat Bhuiyan Maheen, Selina Mim, Ms. Khushnur Binte Jahangir, Md. Tarek Hasan},
+  author={Meherun Mehnaj Miti, Joytun Nessa Tonny, Abrar Hasnat Bhuiyan Maheen, Selina Akter Mim, Ms. Khushnur Binte Jahangir, Md. Tarek Hasan},
   year={2025},
   journal={Preprint}
 }
