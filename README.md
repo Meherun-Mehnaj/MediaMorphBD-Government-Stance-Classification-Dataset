@@ -78,7 +78,7 @@ Both datasets share the same 15 features:
 
 ---
 
-## 📊 Quick Stats
+## Quick Stats
 
 | Language    | Period           | Pro-Gov (%) | Anti-Gov (%) | Neutral (%) | Positive (%) | Negative (%) | Neutral Sentiment (%) |
 | ----------- | ---------------- | ----------- | ------------ | ----------- | ------------ | ------------ | --------------------- |
